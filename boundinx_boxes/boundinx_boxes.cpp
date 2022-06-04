@@ -34,6 +34,8 @@ int main()
     std::cout << CGAL::do_overlap(bb1, bb2) << "\n"; //true
     std::cout << CGAL::do_overlap(bb1, bb3) << "\n"; //false
     std::cout << CGAL::do_overlap(bb2, bb3) << "\n"; //false
+
+    std::cout << CGAL::do_overlap(bb1, bb1) << "\n";
  
 }
 
